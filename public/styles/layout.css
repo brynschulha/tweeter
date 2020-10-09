@@ -15,11 +15,137 @@ html {
  */
 
 body {
-  color: #545149;
   background-color: #f4f1ec;
+  color: #545149;
   font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  width: 90%;
 }
 
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+
+/*This is the CSS for the tweet template in the createTweetElement function*/
+.tweet {
+  border: solid 5px black;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  opacity: 0.5;
+}
+/*When hovering, the tweet will show full opacity and have a shadow*/
+.tweet:hover {
+  box-shadow: 10px 10px #b0b0d2;
+  opacity: 1;
+}
+/*When hovering, the handle and icons will appear*/
+.tweet:hover .hide {
+  color: #b0b0d2;
+  opacity: 1;
+}
+/*Display styles for the header of each tweet (name, image, handle) */
+.tweet-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px 0 40px;
+}
+/*Display spacing for image and name*/
+.nameImage {
+  display: flex;
+}
+/*Display spacing for text in tweet*/
+.middle {
+  margin: 30px 20px 0 40px;
+  padding-bottom: 10px;
+  text-align: initial;
+}
+/*Display spacing for footer of tweet*/
+footer {
+  display: flex;
+  font-size: 15px;
+  justify-content: space-between;
+  padding-left: 40px;
+  text-align: initial;
+}
+/*Border of tweets*/
+.border {
+  border-bottom: solid 5px black;
+  margin: 0 20px;
+}
+/*Display styles for user image on tweet*/
+.pic {
+  height: 100px;
+  width: 100px;
+}
+/*Hides the handle and icons*/
+.hide {
+  opacity: 0;
+}
+/*Submit tweet button styling*/
+.buttons {
+  padding: 10px 20px 10px 10px;
+}
+/*Icon styling*/
+.fa-flag {
+  color: blue;
+}
+.fa-retweet {
+  color: blue;
+}
+.fa-heart {
+  color: blue;
+}
+/*Error message styling*/
+#error-message {
+  color: red;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*Container to implement responsive design*/
+.pageContainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+/*Initial widths at smallest screen*/
+.c1, .c2 {    
+  width: 100%;
+}
+/*Hides the nav bar*/
+@media (max-width: 767 px) {
+  .navHide {
+    display: none;
+  }
+}
+/*At tablet size, change from single column to two columns*/
+@media (min-width: 768px) {
+  .c1 {
+    padding-left: 50px;
+    width: 30%;
+  }
+  .c2 {
+    padding-top: 80px;
+    width: 60%;
+  }
+  .pageContainer {
+    padding-top: 100px;
+  }
+}
+/*At desktop size, stop stretching columns and leave at a fixed width*/
+@media (min-width: 1424px) {
+  .pageContainer {
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    width: 1424px;
+  }
+}

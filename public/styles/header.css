@@ -1,0 +1,18 @@
+.first-header {
+  align-items: center;
+  background-color: #d9ae00;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  justify-content: center;
+  margin-top: 120px;
+  padding-top: 30px;
+  width: 100%;
+}
+
+/*Styling for the user image*/
+#image {
+  height: 100px;
+  width: 100px;
+}

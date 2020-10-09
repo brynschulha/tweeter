@@ -1,0 +1,28 @@
+.button {
+  background-color: blue;
+  color: white;
+  display: flex;
+  font-family: 'Bungee', cursive;
+}
+
+.label {
+  display: flex;
+  padding-bottom: 10px;
+}
+
+.inlabel {
+  background: transparent;
+  border-width: 0;
+  width: 100%;
+}
+
+.bottom {
+  border-top: 5px solid black;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.counter {
+  font-family: 'Bungee', cursive;
+}
