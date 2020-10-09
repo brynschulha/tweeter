@@ -3,10 +3,10 @@
 Tweeter is a simple, single-page Twitter clone.
 
 ## Screenshots
-!["Screenshot description"](URL)
-!["Screenshot description"](URL)
-!["Screenshot description"](URL)
-!["Screenshot description"](URL)
+!["Main Page of Tweeter"](https://github.com/brynschulha/tweeter/blob/master/docs/main-page.png?raw=true)
+!["Typing in some text to make a Tweet"](https://github.com/brynschulha/tweeter/blob/master/docs/tweet-text.png?raw=true)
+!["The tweet has been posted"](https://github.com/brynschulha/tweeter/blob/master/docs/posted-tweet.png?raw=true)
+!["List of posted tweets"](https://github.com/brynschulha/tweeter/blob/master/docs/list-of-tweets.png?raw=true)
 
 ## Getting Started
 
