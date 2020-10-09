@@ -1,13 +1,14 @@
 nav {
-  background-color: #4056A1;
+  background-color: #d9ae00;
+  background-image: url("https://www.transparenttextures.com/patterns/arabesque.png");
   color: #FFFFFF;
   display: flex;
   height: 120px;
   justify-content: space-between;
   padding: 1.5em;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
 nav h1 {
@@ -15,8 +16,7 @@ nav h1 {
   font-size: 1.25em;
 }
 
-#create {
-  background-color: #4056A1;
+.create {
   color: white;
   text-align: center;
 }

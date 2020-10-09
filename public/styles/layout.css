@@ -100,6 +100,9 @@ footer {
 .fa-heart {
   color: blue;
 }
+.icon-btn{
+  border: none;
+}
 /*Error message styling*/
 #error-message {
   color: red;
@@ -119,12 +122,6 @@ footer {
 .c1, .c2 {    
   width: 100%;
 }
-/*Hides the nav bar*/
-@media (max-width: 767 px) {
-  .navHide {
-    display: none;
-  }
-}
 /*At tablet size, change from single column to two columns*/
 @media (min-width: 768px) {
   .c1 {
@@ -137,6 +134,12 @@ footer {
   }
   .pageContainer {
     padding-top: 100px;
+  }
+  .navHide {
+    background-color: #4056A1;
+    background-image: none;
+    display: flex;
+    position: fixed;
   }
 }
 /*At desktop size, stop stretching columns and leave at a fixed width*/

@@ -56,9 +56,9 @@ const createTweetElement = function(tweet) {
         <footer>
           <p>${daysAgoPosted}</p>
           <div class="buttons">
-            <button class="btn hide"><i class="fas fa-flag"></i></button>
-            <button class="btn hide"><i class="fas fa-retweet"></i></button>
-            <button class="btn hide"><i class="fas fa-heart"></i></button>
+            <button class="icon-btn hide"><i class="fas fa-flag"></i></button>
+            <button class="icon-btn hide"><i class="fas fa-retweet"></i></button>
+            <button class="icon-btn hide"><i class="fas fa-heart"></i></button>
           </div>
         </footer>
       </article>
